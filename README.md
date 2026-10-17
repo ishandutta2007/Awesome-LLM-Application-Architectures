@@ -1,18 +1,23 @@
+<!--
+SEO metadata: Awesome LLM Application Architectures — the best SaaS platforms and open-source projects for LLM model serving, inference optimization, LLM inference engines (vLLM, SGLang, TensorRT-LLM), and production RAG systems. Includes pricing, free tiers, company size, and GitHub star comparisons.
+Keywords: LLM serving, LLM inference engine, model serving platforms, RAG systems, open source LLM, vLLM vs SGLang, LLM deployment, GPU inference, MLOps, AI infrastructure, LLM hosting free tier, LLM pricing comparison 2026
+-->
+
 # Awesome-LLM-Application-Architectures
 
-## Top LLM Application Architectures Ecosystem
+## The LLM Application Architectures Ecosystem: Model Serving, Inference Optimization & Production RAG
 
 
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+**The best curated list of SaaS products & open-source GitHub projects for LLM application architectures** — with **pricing**, **free tiers**, **company sizes** and **GitHub stars** compared side by side.  
 
-*Focused on Model Serving, Inference Optimization & Production RAG Systems*  
+*Focused on LLM Model Serving, Inference Optimization & Production RAG Systems*  
 
-**Last updated: March 2026**
+**Last updated: October 2026**
 
 
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **LLM Application Architectures**. These tools provide the serving infrastructure, orchestration layers, and scaling mechanisms needed to deploy production-grade LLM applications—from RAG pipelines and agent systems to high-throughput inference APIs.
+Looking for the **best LLM inference engine**, a **free LLM hosting tier**, or a **production RAG stack**? This repository tracks notable **SaaS platforms** and **open-source projects** for **LLM application architectures**. These tools provide the serving infrastructure, orchestration layers, and scaling mechanisms needed to deploy production-grade LLM applications—from RAG pipelines and agent systems to high-throughput inference APIs.
 
 
 
@@ -35,6 +40,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
+
+- [Quick Picks: Best Tools by Use Case](#quick-picks-best-tools-by-use-case)
 
 - [How to Contribute](#how-to-contribute)
 
@@ -140,6 +147,24 @@ Hosted LLM/ML model-serving platforms compared side by side, **sorted by company
 
 
 **Frameworks for building custom systems**: Combine **vLLM** or **SGLang** for inference, **Ray Serve** or **KServe** for orchestration, **Mooncake** for distributed KV caching in agentic workloads, and **Alibi Detect** for drift monitoring. For RAG pipelines, layer in **Dify** or **Flowise** for visual orchestration with **Feast** for feature management. For enterprise Kubernetes, **KServe + Triton + vLLM** provides a fully open, production-grade stack .
+
+
+
+## Quick Picks: Best Tools by Use Case
+
+
+
+- **Best open-source LLM inference engine (self-hosted GPU):** [vLLM](https://github.com/vllm-project/vllm) and [SGLang](https://github.com/sgl-project/sglang) — the two production defaults; choose vLLM for ecosystem breadth, SGLang for agentic/structured-workload speed.
+
+- **Best way to run an LLM locally / free LLM hosting:** [Ollama](https://github.com/ollama/ollama) and [llama.cpp](https://github.com/ggerganov/llama.cpp) — zero-cost, runs on laptops, edge devices and on-prem servers.
+
+- **Best RAG framework:** [RAGFlow](https://github.com/infiniflow/ragflow) for document-heavy enterprise RAG, [LlamaIndex](https://github.com/run-llama/llama_index) for composable retrieval apps, [Dify](https://github.com/langgenius/dify) for visual builders.
+
+- **Best free LLM hosting (SaaS free tier):** [Modal](https://modal.com/) — $30/month in free compute credits forever; [AWS SageMaker](https://aws.amazon.com/sagemaker/) — 2 months of free inference endpoints; [Databricks](https://www.databricks.com/product/model-serving) — 14-day trial with $400 credits.
+
+- **Best Kubernetes-native model serving:** [KServe](https://github.com/kserve/kserve) + [Triton Inference Server](https://github.com/triton-inference-server/server) + [vLLM](https://github.com/vllm-project/vllm), with [Seldon Core v2](https://github.com/SeldonIO/seldon-core) for pipelines and drift detection.
+
+- **Best NVIDIA-maximized throughput:** [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) and [NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo) for disaggregated prefill/decode at data-center scale.
 
 
 
