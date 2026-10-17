@@ -208,6 +208,12 @@ Hosted LLM/ML model-serving platforms compared side by side, **sorted by company
 
 
 
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-LLM-Application-Architectures&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-LLM-Application-Architectures&type=date&legend=top-left)
+
+
+
 ---
 
 
@@ -215,7 +221,5 @@ Hosted LLM/ML model-serving platforms compared side by side, **sorted by company
 **🛠️ Made for ML engineers, platform architects, AI infrastructure teams, and open-source enthusiasts.**  
 
 🌟 Let's make LLM serving more open, scalable, and vendor-neutral.
-# Awesome-LLM-Application-Architectures
 
-# Awesome-LLM-Application-Architectures
 
