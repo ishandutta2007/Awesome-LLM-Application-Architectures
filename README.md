@@ -5,6 +5,10 @@ Keywords: LLM serving, LLM inference engine, model serving platforms, RAG system
 
 # Awesome-LLM-Application-Architectures
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome LLM Application Architectures — animated banner showing LLM serving, inference optimization and production RAG" width="100%"/>
+</p>
+
 ## The LLM Application Architectures Ecosystem: Model Serving, Inference Optimization & Production RAG
 
 
