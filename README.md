@@ -213,3 +213,5 @@ Star the repo if you find it useful!
 **Made for ML engineers, platform architects, AI infrastructure teams, and open-source enthusiasts.**  
 
 Let's make LLM serving more open, scalable, and vendor-neutral.
+# Awesome-LLM-Application-Architectures
+
