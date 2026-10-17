@@ -30,6 +30,8 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
+
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -37,6 +39,16 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 - [How to Contribute](#how-to-contribute)
 
 - [Disclaimer](#disclaimer)
+
+
+
+## Sector Overview & Market Dynamics
+
+
+
+**Estimated market size** — The MLOps / model-serving segment covered by this list was valued at **~$3.0B in 2025** and is forecast to grow to **~$16.6B by 2030 (40.5% CAGR)** ([Grand View Research](https://www.grandviewresearch.com/industry-analysis/mlops-market-report)); with the adjacent AI inference-as-a-service and LLMOps layers, analysts put the broader serving market in the **tens of billions by the early 2030s**, and Bloomberg has estimated inference alone could become a **~$487B/yr market** as it outpaces training spend.
+
+**Fragmentation** — **Moderately fragmented overall, with winner-take-all dynamics at the top**: the tooling/DevTool layer is crowded and standards-free (a dozen competing open engines — vLLM, SGLang, TensorRT-LLM, Triton, Ray Serve — with no single winner), but the hosted layer is highly concentrated — three hyperscalers (AWS, Azure, Google Cloud) take the majority of platform spend, and a handful of frontier-model APIs absorb most token revenue. Expect open fragmentation below, oligopoly above.
 
 
 
