@@ -9,6 +9,10 @@ Keywords: LLM serving, LLM inference engine, model serving platforms, RAG system
   <img src="assets/banner.svg" alt="Awesome LLM Application Architectures — animated banner showing LLM serving, inference optimization and production RAG" width="100%"/>
 </p>
 
+<p align="center">
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a><a href="https://github.com/ishandutta2007/Awesome-LLM-Application-Architectures/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" alt="MIT License"/></a><a href="https://github.com/ishandutta2007/Awesome-LLM-Application-Architectures/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-LLM-Application-Architectures?style=flat-square&logo=github&color=orange" alt="GitHub stars"/></a><a href="https://github.com/ishandutta2007/Awesome-LLM-Application-Architectures/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-LLM-Application-Architectures?style=flat-square" alt="GitHub issues"/></a><a href="https://github.com/ishandutta2007/Awesome-LLM-Application-Architectures/pulls"><img src="https://img.shields.io/github/issues-pr/ishandutta2007/Awesome-LLM-Application-Architectures?style=flat-square&color=blue" alt="GitHub pull requests"/></a><img src="https://img.shields.io/badge/LLM-Serving%20%7C%20Inference%20%7C%20RAG-0ea5e9?style=flat-square" alt="LLM Serving, Inference and RAG"/><a href="https://github.com/ishandutta2007/Awesome-LLM-Application-Architectures"><img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-LLM-Application-Architectures?style=flat-square" alt="Last commit"/></a>
+</p>
+
 ## 🧠 The LLM Application Architectures Ecosystem: Model Serving, Inference Optimization & Production RAG
 
 
