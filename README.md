@@ -75,89 +75,67 @@ Hosted LLM/ML model-serving platforms compared side by side, **sorted by company
 
 
 
-- **[Ray Serve](https://github.com/ray-project/ray)**  
-
-  **The dominant framework for distributed LLM serving** — builds on Ray to orchestrate multi-model pipelines, heterogeneous GPU workloads, and autoscaling inference services. Powers Anyscale Endpoints and integrates natively with vLLM, SGLang, and Transformers .
+**Sorted by GitHub stars (descending)** — star badges are live via shields.io and link to each repository's stargazers page (counts as of October 2026).
 
 
 
-- **[KServe](https://github.com/kserve/kserve)**  
+- **[Ollama](https://github.com/ollama/ollama)** [![Ollama GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers) — Single-command way to run Llama, Qwen, DeepSeek and other LLMs locally with a REST API; the most popular self-hosted LLM runtime for laptops, edge and on-prem servers.
 
-  Kubernetes-native model serving platform (formerly KFServing) under the Kubeflow ecosystem. Provides canary deployments, A/B testing, payload logging, and auto-scaling via Knative/KEDA. Apache 2.0 licensed with no commercial restrictions .
+- **[Dify](https://github.com/langgenius/dify)** [![Dify GitHub stars](https://img.shields.io/github/stars/langgenius/dify?style=social&color=white)](https://github.com/langgenius/dify/stargazers) — **Most-starred open-source LLM app platform** — combines visual orchestration, prompt management, evaluation, and deployment for production LLM apps and RAG pipelines. Modified Apache 2.0 with commercial restrictions on multi-tenant SaaS.
 
+- **[llama.cpp](https://github.com/ggerganov/llama.cpp)** [![llama.cpp GitHub stars](https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social&color=white)](https://github.com/ggerganov/llama.cpp/stargazers) — CPU/edge/mobile inference with Metal support for Apple Silicon; GGUF quantization and the broadest hardware compatibility — best for on-prem or low-cost infrastructure.
 
+- **[vLLM](https://github.com/vllm-project/vllm)** [![vLLM GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers) — **Production-default LLM inference engine** with PagedAttention for memory-efficient KV cache management. Continuous batching, prefix caching, and disaggregated prefill/decode support (0.6+). Red Hat is the largest corporate contributor.
 
-- **[Triton Inference Server](https://github.com/triton-inference-server/server)**  
+- **[RAGFlow](https://github.com/infiniflow/ragflow)** [![RAGFlow GitHub stars](https://img.shields.io/github/stars/infiniflow/ragflow?style=social&color=white)](https://github.com/infiniflow/ragflow/stargazers) — Open-source RAG engine with deep document understanding (OCR, layout-aware chunking) powering end-to-end enterprise search and LLM application pipelines.
 
-  NVIDIA's high-performance inference server supporting TensorFlow, PyTorch, ONNX, TensorRT, and tree models via FIL backend. Multi-framework serving in a single deployment with dynamic batching and GPU optimization .
+- **[LlamaIndex](https://github.com/run-llama/llama_index)** [![LlamaIndex GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers) — Data framework for LLM apps — connect private data to LLMs via retrieval, agents, and evaluation; the most widely used RAG orchestration library.
 
+- **[Ray Serve](https://github.com/ray-project/ray)** [![Ray GitHub stars](https://img.shields.io/github/stars/ray-project/ray?style=social&color=white)](https://github.com/ray-project/ray/stargazers) — **The dominant framework for distributed LLM serving** — builds on Ray to orchestrate multi-model pipelines, heterogeneous GPU workloads, and autoscaling inference services. Powers Anyscale Endpoints and integrates natively with vLLM, SGLang, and Transformers.
 
+- **[SGLang](https://github.com/sgl-project/sglang)** [![SGLang GitHub stars](https://img.shields.io/github/stars/sgl-project/sglang?style=social&color=white)](https://github.com/sgl-project/sglang/stargazers) — **Fastest inference engine for chat, agents, and RAG workloads** — RadixAttention for KV cache reuse across related requests (6.4x throughput vs baseline, 3.7x lower latency than vLLM on chat). Native disaggregated inference support.
 
-- **[Seldon Core](https://github.com/SeldonIO/seldon-core)**  
+- **[MLflow](https://github.com/mlflow/mlflow)** [![MLflow GitHub stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers) — Model registry, experiment tracking and LLM observability; Apache 2.0 licensed, integrates with all serving frameworks in this list.
 
-  Kubernetes-based model deployment with pipeline DAGs, drift detection, and canary rollouts. **Critical version note**: v1.x is BUSL-1.1 (restricted for commercial hosting); v2.x is Apache 2.0 licensed and safe for production use .
+- **[Haystack](https://github.com/deepset-ai/haystack)** [![Haystack GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers) — deepset's end-to-end LLM framework for production RAG pipelines, agents, and semantic search with a composable pipeline abstraction.
 
+- **[MLC-LLM](https://github.com/mlc-ai/mlc-llm)** [![MLC-LLM GitHub stars](https://img.shields.io/github/stars/mlc-ai/mlc-llm?style=social&color=white)](https://github.com/mlc-ai/mlc-llm/stargazers) — Universal LLM deployment via compiler-based optimization — runs LLMs natively on phones, browsers (WebGPU), and GPUs with near-optimal performance.
 
+- **[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)** [![TensorRT-LLM GitHub stars](https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social&color=white)](https://github.com/NVIDIA/TensorRT-LLM/stargazers) — Maximum NVIDIA performance for latency-critical workloads; requires 1-2 weeks setup but delivers best throughput on Blackwell (B200, GB200).
 
-- **[BentoML](https://github.com/bentoml/BentoML)**  
+- **[OpenLLM](https://github.com/bentoml/OpenLLM)** [![OpenLLM GitHub stars](https://img.shields.io/github/stars/bentoml/OpenLLM?style=social&color=white)](https://github.com/bentoml/OpenLLM/stargazers) — Run open LLMs (Llama, Qwen, Gemma…) in production with a vLLM-powered backend; single-command deploy, scale-to-zero and an OpenAI-compatible API.
 
-  Python-first serving framework with Runner abstraction for custom inference logic, adaptive batching, and multi-model pipelines. Faster cold starts than KServe for serverless deployments .
+- **[Triton Inference Server](https://github.com/triton-inference-server/server)** [![Triton GitHub stars](https://img.shields.io/github/stars/triton-inference-server/server?style=social&color=white)](https://github.com/triton-inference-server/server/stargazers) — NVIDIA's high-performance inference server supporting TensorFlow, PyTorch, ONNX, TensorRT, and tree models via FIL backend. Multi-framework serving in a single deployment with dynamic batching and GPU optimization.
 
+- **[Text Generation Inference (TGI)](https://github.com/huggingface/text-generation-inference)** [![TGI GitHub stars](https://img.shields.io/github/stars/huggingface/text-generation-inference?style=social&color=white)](https://github.com/huggingface/text-generation-inference/stargazers) — Hugging Face's production toolkit for serving LLMs: continuous batching, tensor/paged attention, FP8 and quantized inference, token streaming.
 
+- **[BentoML](https://github.com/bentoml/BentoML)** [![BentoML GitHub stars](https://img.shields.io/github/stars/bentoml/BentoML?style=social&color=white)](https://github.com/bentoml/BentoML/stargazers) — Python-first serving framework with Runner abstraction for custom inference logic, adaptive batching, and multi-model pipelines. Faster cold starts than KServe for serverless deployments.
 
-- **[RayLLM](https://github.com/ray-project/ray-llm)**  
+- **[NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo)** [![NVIDIA Dynamo GitHub stars](https://img.shields.io/github/stars/ai-dynamo/dynamo?style=social&color=white)](https://github.com/ai-dynamo/dynamo/stargazers) — Production-grade disaggregated inference framework from NVIDIA (GTC 2025). Native prefill/decode separation with RDMA/NVLink KV cache transfer; supports vLLM, SGLang, and TensorRT-LLM backends at data center scale.
 
-  **LLM serving solution built on Ray Serve** — pre-configured open-source models with continuous batching, quantization, scale-to-zero autoscaling, and OpenAI-compatible REST API. Supports multi-GPU and multi-node deployments out of the box .
+- **[LMDeploy](https://github.com/InternLM/lmdeploy)** [![LMDeploy GitHub stars](https://img.shields.io/github/stars/InternLM/lmdeploy?style=social&color=white)](https://github.com/InternLM/lmdeploy/stargazers) — SDK for compressed LLM deployment from InternLM — TurboMind kernels, KV-cache quantization, and an OpenAI-compatible serving API.
 
+- **[Feast](https://github.com/feast-dev/feast)** [![Feast GitHub stars](https://img.shields.io/github/stars/feast-dev/feast?style=social&color=white)](https://github.com/feast-dev/feast/stargazers) — Open-source feature store; co-located Redis/DynamoDB achieves sub-10ms retrieval for fraud detection and real-time ML.
 
+- **[Mooncake](https://github.com/kvcache-ai/Mooncake)** [![Mooncake GitHub stars](https://img.shields.io/github/stars/kvcache-ai/Mooncake?style=social&color=white)](https://github.com/kvcache-ai/Mooncake/stargazers) — **Distributed KV cache store for agentic workloads** — vLLM integration achieves 3.8x higher throughput, 46x lower TTFT, and 8.6x lower end-to-end latency on realistic agent traces with 94.2% cache hit rates.
 
-- **[vLLM](https://github.com/vllm-project/vllm)**  
+- **[KServe](https://github.com/kserve/kserve)** [![KServe GitHub stars](https://img.shields.io/github/stars/kserve/kserve?style=social&color=white)](https://github.com/kserve/kserve/stargazers) — Kubernetes-native model serving platform (formerly KFServing) under the Kubeflow ecosystem. Provides canary deployments, A/B testing, payload logging, and auto-scaling via Knative/KEDA. Apache 2.0 licensed with no commercial restrictions.
 
-  **Production-default LLM inference engine** with PagedAttention for memory-efficient KV cache management. Continuous batching, prefix caching, and disaggregated prefill/decode support (0.6+). Red Hat is the largest corporate contributor .
+- **[Seldon Core](https://github.com/SeldonIO/seldon-core)** [![Seldon Core GitHub stars](https://img.shields.io/github/stars/SeldonIO/seldon-core?style=social&color=white)](https://github.com/SeldonIO/seldon-core/stargazers) — Kubernetes-based model deployment with pipeline DAGs, drift detection, and canary rollouts. **Critical version note**: v1.x is BUSL-1.1 (restricted for commercial hosting); v2.x is Apache 2.0 licensed and safe for production use.
 
+- **[CTranslate2](https://github.com/OpenNMT/CTranslate2)** [![CTranslate2 GitHub stars](https://img.shields.io/github/stars/OpenNMT/CTranslate2?style=social&color=white)](https://github.com/OpenNMT/CTranslate2/stargazers) — Fast Transformer inference engine — up to 4x faster than Hugging Face on CPU with int8/float16 optimization; powers FasterTransformer-style deployments.
 
+- **[TorchServe](https://github.com/pytorch/serve)** [![TorchServe GitHub stars](https://img.shields.io/github/stars/pytorch/serve?style=social&color=white)](https://github.com/pytorch/serve/stargazers) — PyTorch's official model serving tool — multi-model serving, metrics, A/B testing and version management for PyTorch models.
 
-- **[SGLang](https://github.com/sgl-project/sglang)**  
+- **[LitServe](https://github.com/Lightning-AI/LitServe)** [![LitServe GitHub stars](https://img.shields.io/github/stars/Lightning-AI/LitServe?style=social&color=white)](https://github.com/Lightning-AI/LitServe/stargazers) — Build custom inference servers in pure Python for agents, RAG, and multi-model pipelines. 2x faster than FastAPI, supports batching and streaming.
 
-  **Fastest inference engine for chat, agents, and RAG workloads** — RadixAttention for KV cache reuse across related requests (6.4x throughput vs baseline, 3.7x lower latency than vLLM on chat). Native disaggregated inference support .
+- **[Infinity](https://github.com/michaelfeil/infinity)** [![Infinity GitHub stars](https://img.shields.io/github/stars/michaelfeil/infinity?style=social&color=white)](https://github.com/michaelfeil/infinity/stargazers) — Production-ready serving of embeddings and rerankers — float32/int8/ONNX backends for 100+ models with blazing throughput for RAG retrieval.
 
+- **[Alibi Detect](https://github.com/SeldonIO/alibi-detect)** [![Alibi Detect GitHub stars](https://img.shields.io/github/stars/SeldonIO/alibi-detect?style=social&color=white)](https://github.com/SeldonIO/alibi-detect/stargazers) — Drift and outlier detection that integrates natively with Seldon and KServe for production monitoring.
 
+- **[RayLLM](https://github.com/ray-project/ray-llm)** *(archived)* [![RayLLM GitHub stars](https://img.shields.io/github/stars/ray-project/ray-llm?style=social&color=white)](https://github.com/ray-project/ray-llm/stargazers) — **LLM serving solution built on Ray Serve** — pre-configured open-source models with continuous batching, quantization, scale-to-zero autoscaling, and OpenAI-compatible REST API. Superseded by Anyscale / Ray Serve LLM examples.
 
-- **[Dify](https://github.com/langgenius/dify)**  
-
-  **Most-starred open-source LLM platform** (142K+ stars) — combines orchestration, prompt management, evaluation, and deployment for production LLM apps. Modified Apache 2.0 with commercial restrictions on multi-tenant SaaS .
-
-
-
-- **[NVIDIA Dynamo](https://github.com/ai-dynamo/dynamo)**  
-
-  Production-grade disaggregated inference framework from NVIDIA (GTC 2025). Native prefill/decode separation with RDMA/NVLink KV cache transfer; supports vLLM, SGLang, and TensorRT-LLM backends at data center scale .
-
-
-
-- **[Mooncake](https://github.com/kvcache-ai/Mooncake)**  
-
-  **Distributed KV cache store for agentic workloads** — vLLM integration achieves 3.8x higher throughput, 46x lower TTFT, and 8.6x lower end-to-end latency on realistic agent traces with 94.2% cache hit rates .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[LitServe](https://github.com/bhimrazy/LitServe)** — Build custom inference servers in pure Python for agents, RAG, and multi-model pipelines. 2x faster than FastAPI, supports batching and streaming .
-
-- **[Wingman](https://github.com/adrianliechti/wingman)** — Self-hosted inference hub aggregating OpenAI, Anthropic, Ollama, and MCP servers behind a unified API with built-in RAG and agent support .
-
-- **[TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM)** — Maximum NVIDIA performance for latency-critical workloads; requires 1-2 weeks setup but delivers best throughput on Blackwell (B200, GB200) .
-
-- **[llama.cpp](https://github.com/ggerganov/llama.cpp)** — CPU/edge/mobile inference with Metal support for Apple Silicon; best for on-prem or low-cost infrastructure .
-
-- **[MLflow](https://github.com/mlflow/mlflow)** — Model registry and experiment tracking; Apache 2.0 licensed, integrates with serving frameworks .
-
-- **[Alibi Detect](https://github.com/SeldonIO/alibi-detect)** — Drift and outlier detection that integrates natively with Seldon and KServe for production monitoring .
-
-- **[Feast](https://github.com/feast-dev/feast)** — Open-source feature store; co-located Redis/DynamoDB achieves sub-10ms retrieval for fraud detection and real-time ML .
+- **[Wingman](https://github.com/adrianliechti/wingman)** [![Wingman GitHub stars](https://img.shields.io/github/stars/adrianliechti/wingman?style=social&color=white)](https://github.com/adrianliechti/wingman/stargazers) — Self-hosted inference hub aggregating OpenAI, Anthropic, Ollama, and MCP servers behind a unified API with built-in RAG and agent support.
 
 
 
