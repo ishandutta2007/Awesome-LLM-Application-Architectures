@@ -217,3 +217,5 @@ Hosted LLM/ML model-serving platforms compared side by side, **sorted by company
 🌟 Let's make LLM serving more open, scalable, and vendor-neutral.
 # Awesome-LLM-Application-Architectures
 
+# Awesome-LLM-Application-Architectures
+
